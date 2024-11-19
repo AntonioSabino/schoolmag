@@ -137,7 +137,7 @@ const SingleStudentPage = async ({
 								<h1 className='text-xl font-semibold'>
 									{student.class.name.charAt(0)}th
 								</h1>
-								<span className='text-sm text-gray-400'>Grade</span>
+								<span className='text-sm text-gray-400'>Semestre</span>
 							</div>
 						</div>
 						{/* CARD */}
@@ -153,7 +153,7 @@ const SingleStudentPage = async ({
 								<h1 className='text-xl font-semibold'>
 									{student.class._count.lessons}
 								</h1>
-								<span className='text-sm text-gray-400'>Lessons</span>
+								<span className='text-sm text-gray-400'>Atividades</span>
 							</div>
 						</div>
 						{/* CARD */}
@@ -167,14 +167,14 @@ const SingleStudentPage = async ({
 							/>
 							<div className=''>
 								<h1 className='text-xl font-semibold'>{student.class.name}</h1>
-								<span className='text-sm text-gray-400'>Class</span>
+								<span className='text-sm text-gray-400'>Classe</span>
 							</div>
 						</div>
 					</div>
 				</div>
 				{/* BOTTOM */}
 				<div className='mt-4 bg-white rounded-md p-4 h-[800px]'>
-					<h1>Student&apos;s Schedule</h1>
+					<h1>Calendário</h1>
 					<BigCalendarContainer
 						type='classId'
 						id={student.class.id}

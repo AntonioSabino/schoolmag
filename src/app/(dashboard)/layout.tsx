@@ -22,7 +22,7 @@ export default function DashboardLayout({
 						width={32}
 						height={32}
 					/>
-					<span className='hidden lg:block font-bold'>Schooschool</span>
+					<span className='hidden lg:block font-bold'>FIG</span>
 				</Link>
 				<Menu />
 			</div>

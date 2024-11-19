@@ -34,7 +34,7 @@ const LoginPage = () => {
 							width={24}
 							height={24}
 						/>
-						Schooschool
+						FIG
 					</h1>
 					<h2 className='text-gray-400'>Sign in to your account</h2>
 					<Clerk.GlobalError className='text-sm text-red-400' />
